@@ -1,0 +1,96 @@
+/* WARNING: MEDIUM SCREEN */
+@media screen and (max-width: 895px)
+and (min-width: 0px){
+  .tc-p-1{
+    display: none;
+  }
+}
+@media screen and (max-width: 768px)
+and (min-width: 0px){
+  .influencer-page .img{
+    width: 100%;
+    min-height: auto!important;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 720px)
+and (min-width: 0px){
+  .dsk-title-bg{
+    display: none;
+  }
+  .dsk-title-sm{
+    display: block;
+  }
+  .trends-row img{
+    width: 100%;
+  }
+  .trends-content{
+    width: 100%;
+  }
+  .tc-p-3{
+    display: block;
+  }
+}
+@media screen and (max-width: 630px)
+and (min-width: 0px){
+  .main-navigator{
+    display: none;
+  }
+}
+@media screen and (max-width:680px)
+and (min-width: 0px){
+  .slider-content{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  /* BALENCIAGA POST */
+  .trends-content{
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+  }
+  .trends-row h6{
+    text-align: center!important;
+  }
+  .trends-row img{
+    width: 100%!important;
+  }
+  .trends-content{
+    width: 100%!important;
+  }
+}
+@media screen and (max-width:480px)
+and (min-width: 0px){
+  .sc-p1{
+    display: none;
+  }
+}
+
+/* WARNING: SMALL SCREEN */
+@media screen and (max-width: 480px)
+and (min-width: 0px){
+  .trends-slider img{
+    width: 471px;
+    height: 411px;
+    position: absolute;
+    left: -99px;
+  }
+  /* REGISTER / JOIN FORMS */
+  .join-bbc form{
+    width: 100%!important;
+    background: rgba(255,255,255,0.8);
+  }
+  .join-bbc{
+    height: auto!important;
+    overflow: hidden;
+  }
+}
+
+
+/* WARNING: HEIGHT */
+@media screen and (max-height: 600px)
+and (min-height: 0px){
+  .trends-slider img{
+
+  }
+}

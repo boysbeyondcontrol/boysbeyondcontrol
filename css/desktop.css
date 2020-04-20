@@ -1,0 +1,13 @@
+/* WARNING: NOT TOO BIG */
+@media screen and (max-width: 1214px)
+and (min-width: 0px){
+  .tc-p-3{
+    display: none;
+  }
+}
+@media screen and (max-width: 1007px)
+and (min-width: 0px){
+  .tc-p-2{
+    display: none;
+  }
+}

@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.font-lacquer{
+  font-family: 'Lacquer', cursive;
+}
+.font-dosis{
+  font-family: 'Dosis', sans-serif;
+}
+/* HEADER */
+header{
+  position: fixed;
+  background: #fff;
+  overflow: hidden;
+  width: 100%;
+  z-index: 333; /* TODO: HEADER MENU POWER */
+}
+header span{
+
+}
+.logo{
+  margin: 14px;
+  font-weight: bold;
+  display: block;
+  float: left;
+}
+.logo-sub{
+  text-align: center;
+  display: block;
+  font-weight: normal;
+}
+.logo i{
+  color: red;
+  font-style: normal;
+}
+@media screen and (max-width: 675px)
+and (min-width: 0px){
+  .main-navigator{
+    display: none!important;
+  }
+}
+.main-navigator{
+  display: block;
+  float: left;
+  margin-top: 19px;
+  width: 326px;
+}
+.main-navigator ul{
+  margin: 0;
+}
+.main-navigator ul li{
+  display: inline-block;
+  font-size: 136%;
+  margin-left: 2%;
+}
+.main-navigator ul li a:hover{
+  text-decoration: none;
+  color: red;
+  transition: 1;
+}
+ul li a{
+  color: #000;
+}
+.join{
+  display: inline-block;
+  border: 2px solid #910000;
+  margin-top: 19px;
+  font-size: 128%;
+  width: 120px;
+  text-align: center;
+  float: right;
+  margin-right: 8px;
+}
+.join a{
+  color: red;
+  text-decoration: none;
+}
+.join a:hover{
+  color: red;
+  text-decoration: none;
+}
+.join-bbc-now{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 777;
+}
+/* //HEADER */
+/* paragraphing */
+.pr{
+  z-index: 555;
+}
+/* //paragraphing */
+
+
+/* FOOTER */
+footer{
+  background: #919191;
+  padding: 10px;
+}
+footer span{
+  display: block;
+  text-align: center;
+  color: red;
+}
+/* //FOOTER */

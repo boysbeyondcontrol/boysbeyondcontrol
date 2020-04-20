@@ -1,0 +1,114 @@
+/* JOIN BBC */
+.join-bbc{
+  overflow: hidden;
+  background-position: 5%;
+  background-repeat: no-repeat;
+  background-size: 554px;
+  position: relative;
+  height: 100%;
+}
+.join-bbc form{
+  width: 380px;
+  float: right;
+  height: 100%;
+  background: #fff;
+  padding: 15px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+@media screen and (max-width: 500px)
+and (min-width: 0px){
+  .join-bbc form{
+    width: 100%;
+  }
+}
+.join-bbc form input{
+  border-color: transparent;
+  padding: 8px;
+  width: 100%;
+  border-bottom: 1px solid #292929;
+  background: transparent!important;
+}
+.join-bbc form input:focus{
+  outline: none;
+}
+.join-bbc h2{
+  font-size: 151%;
+  color: #000;
+}
+.join-bbc h2 i{
+  color: red;
+  font-style: normal;
+}
+.join-bbc .form-group{
+  margin-top: 15px;
+}
+.form-group label{
+  display: block;
+}
+.ig-bx{
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 3px;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 2px;
+}
+.ig-bx .indicator{
+  float: left;
+  left: 5px;
+  height: 27px;
+  background: #dedede;
+  width: 1px;
+  padding: 1px;
+}
+.social-media-input{
+  border: 1px solid #dedede;
+  padding: 5px;
+}
+.social-media-input input{
+  width: 90%!important;
+  display: block;
+  margin: auto;
+  background: #fff!important;
+  border-bottom: 1px solid #292929!important;
+}
+.close-smi{
+  font-size: 25px;
+  float: right;
+  margin: 10px;
+  color: #616161;
+}
+.join-bbc-btn{
+  display: block;
+  margin: 5px 0;
+  background: #000;
+  width: 98%;
+  border: none;
+  color: #fff;
+  text-align: center;
+  padding: 7px;
+}
+.s-media{
+  float: right;
+  margin: 5px;
+}
+.endorse{
+  overflow: hidden;
+}
+.endorse h3{
+  font-size: 100%;
+  padding: 5px;
+}
+.ads li i{
+  display: inline-block;
+  float: left;
+  margin: 5px;
+  margin-right: 15px;
+}
+.ads li a{
+  overflow: hidden;
+  display: block;
+  color: red;
+}
+/* //JOIN BBC */
