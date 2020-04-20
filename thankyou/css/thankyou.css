@@ -1,0 +1,29 @@
+body{
+}
+.thank-you-bx{
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  position: relative;
+}
+.thank-you-bx h3{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-family: 'Girassol', cursive;
+  font-size: 30px;
+  color: #545454;
+}
+#tyb-lft, #tyb-ryt{
+  width: 20%;
+  height: 1px;
+  display: inline-block;
+  background: red;
+}
+h3 span{
+  margin-bottom: 8px;
+}
+h3 i{
+  font-style: normal;
+  color: red;
+}
