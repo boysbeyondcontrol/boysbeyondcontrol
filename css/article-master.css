@@ -137,6 +137,9 @@ and (min-width: 0px){
 .ig-art{
   text-align: center;
 }
+.ig-art iframe{
+  margin: auto!important;
+}
 .badge{
   display: block;
   position: absolute;
